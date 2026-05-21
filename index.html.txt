@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>موقعي الاحترافي</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial;
+    background:#0f172a;
+    color:white;
+}
+
+header{
+    background:#1e293b;
+    padding:20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+    color:#38bdf8;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:10px;
+    font-size:18px;
+}
+
+.hero{
+    text-align:center;
+    padding:100px 20px;
+}
+
+.hero h1{
+    font-size:50px;
+    color:#38bdf8;
+}
+
+.hero p{
+    font-size:22px;
+    color:#cbd5e1;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:15px 35px;
+    background:#38bdf8;
+    color:black;
+    border-radius:10px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    padding:40px;
+}
+
+.card{
+    background:#1e293b;
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+footer{
+    background:#1e293b;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">AYOUB WEB</div>
+
+<nav>
+<a href="#">الرئيسية</a>
+<a href="#">الخدمات</a>
+<a href="#">الألعاب</a>
+<a href="#">اتصل بنا</a>
+</nav>
+</header>
+
+<section class="hero">
+<h1>مرحباً بك في موقعي</h1>
+<p>تعلم البرمجة وصناعة الألعاب والمواقع الحديثة</p>
+
+<a class="btn" href="#">ابدأ الآن</a>
+</section>
+
+<section class="cards">
+
+<div class="card">
+<h2>برمجة المواقع</h2>
+<p>تعلم HTML و CSS و JavaScript بسهولة</p>
+</div>
+
+<div class="card">
+<h2>صناعة الألعاب</h2>
+<p>إنشاء ألعاب ممتعة للويب والهاتف</p>
+</div>
+
+<div class="card">
+<h2>الربح من الإنترنت</h2>
+<p>تعلم الربح من AdSense والمشاريع الرقمية</p>
+</div>
+
+</section>
+
+<footer>
+© 2026 جميع الحقوق محفوظة
+</footer>
+
+</body>
+</html>
